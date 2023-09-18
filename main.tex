@@ -30,8 +30,22 @@
 
 \begin{document}
 \maketitle
-Primero voy a definir que tanto los espadachines, arqueros y jinetes son números positivos enteros, con lo que defino las siguientes ecuaciones:
-
+El problema que hay que resolver es el siguiente:\\
+\\
+Dado un escenario donde tienes un conjunto limitado de recursos y unidades disponibles, el objetivo es utilizar técnicas de programación lineal para maximizar el poder total de un ejército. Basándote en la información proporcionada:\\
+\\
+Recursos disponibles:\\
+\\
+Comida: 1200 | Madera: 800 | Oro: 600\\
+\\
+Unidades y sus costos:\\
+\\
+Espadachín: 60 de comida, 20 de madera, 0 de oro y 70 de poder.\\
+Arquero: 80 de comida, 10 de madera, 40 de oro y 95 de poder.\\
+Jinete: 140 de comida, 0 de madera, 100 de oro y 230 de poder.\\
+\\
+Primero voy a definir que tanto los espadachines, arqueros y jinetes son números positivos enteros, con lo que defino las siguientes ecuaciones:\\
+\\
 $$
 \begin{gathered}
 0 \leq \text { espadachines } \leq \infty \\
@@ -109,8 +123,9 @@ if status == pywraplp.Solver.OPTIMAL:
 else:
     print('El problema no tiene solución óptima.')
 \end{verbatim}
-Obtenemos el siguiente resultado:
-
+\newpage
+Obtenemos el siguiente resultado:\\
+\\
 \begin{center}
 \includegraphics[max width=\textwidth]{images/solucion.jpg}
 \end{center}

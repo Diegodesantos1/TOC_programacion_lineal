@@ -2,7 +2,9 @@
 
 En este [repositorio](https://github.com/Diegodesantos1/TOC_programacion_lineal) queda resuelta la práctica de programación lineal.
 
-El código empleado para resolverlo es el siguiente:
+El pdf es el siguiente: [pdf](https://github.com/Diegodesantos1/TOC_programacion_lineal/blob/main/Programaci%C3%B3n_Lineal.pdf)
+
+El código empleado para resolverlo es:
 
 ***
 ```python
